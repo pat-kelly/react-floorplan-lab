@@ -1,14 +1,61 @@
 div {
-  border: 1px solid grey;
-  margin: 5px;
-  padding: 5px;
+  /* border: 1px solid grey; */
+  /* margin: 5px;
+  padding: 5px; */
+  display:flex;
+  color:white;
 }
 
-.row-one{
-  
+.master-suite{
+  flex-direction: column;
+}
+
+.center-text{
+  justify-content: center;
+  align-items: center;
+}
+
+.master-suite :last-child{
+  height:100px;
+}
+
+.kitchen-text{
+  height:100%;
 }
 
 .kitchen{
-  display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  background-color: coral;
+  height:300px;
+  width: 100px;
+}
+
+#sink{
+  background-color: brown;
+  width: 50%;
+  height: 50px;
+}
+
+#oven{
+  background-color: chocolate;
+  width: 50%;
+}
+
+.bedroom{
+  background-color: teal;
+  height:200px;
+  width:200px;
+}
+
+.bath{
+  background-color:olivedrab;
+}
+
+.living-room{
+  background-color: tan;
+  width: 200px;
+}
+
+.row-two :nth-child(2){
+  width:100px;
 }

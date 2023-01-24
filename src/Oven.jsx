@@ -1,6 +1,6 @@
 const Oven = ()=>{
   return(
-    <div>
+    <div id="oven" className="center-text">
       Oven
     </div>
   )

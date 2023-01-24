@@ -1,6 +1,6 @@
 const Bath = (props)=>{
   return(
-    <div className="bath">
+    <div className="bath center-text">
       {props.size} Bath
     </div>
   )

@@ -1,6 +1,6 @@
 const LivingRoom = ()=>{
   return(
-    <div className="living-room">
+    <div className="living-room center-text">
       LivingRoom!
     </div>
   )

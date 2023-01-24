@@ -7,7 +7,7 @@ const FloorPlan = ()=>{
   return(
     <>
       <div className="row-one">
-        <div>
+        <div className="master-suite">
           <BedRoom bedNum={1} />
           <Bath size='Full'/>
         </div>
