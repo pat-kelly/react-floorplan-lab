@@ -1,8 +1,8 @@
 const LivingRoom = ()=>{
   return(
-    <h2>
+    <div className="living-room">
       LivingRoom!
-    </h2>
+    </div>
   )
 }
 

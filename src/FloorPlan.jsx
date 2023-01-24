@@ -6,10 +6,19 @@ import LivingRoom from "./LivingRoom"
 const FloorPlan = ()=>{
   return(
     <>
-      <Kitchen />
-      <LivingRoom />
-      <BedRoom />
-      <Bath />
+      <div className="row-one">
+        <div>
+          <BedRoom bedNum={1} />
+          <Bath size='Full'/>
+        </div>
+        <LivingRoom />
+        <Kitchen />
+      </div>
+      <div className="row-two">
+        <BedRoom bedNum={2} />
+        <Bath size='Half' />
+        <BedRoom bedNum={3} />
+      </div>
     </>
   )
 }

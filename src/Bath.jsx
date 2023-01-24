@@ -1,8 +1,8 @@
-const Bath = ()=>{
+const Bath = (props)=>{
   return(
-    <h2>
-      Bath!
-    </h2>
+    <div className="bath">
+      {props.size} Bath
+    </div>
   )
 }
 

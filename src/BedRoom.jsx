@@ -1,8 +1,8 @@
-const BedRoom = ()=>{
+const BedRoom = (props)=>{
   return(
-    <h2>
-      Bedroom!
-    </h2>
+    <div className="bed-room">
+      Bedroom {props.bedNum}
+    </div>
   )
 }
 
